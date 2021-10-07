@@ -11,8 +11,7 @@ test('adds two numbers 5 and 3', (expect) => {
     // Set up your arguments and expectations
     const x = 5;
     const y = 3;
-    //const expected = 8;
-    const expected = 9;
+    const expected = 8;
 
     //Act 
     // Call the function you're testing and set the result to a const
@@ -29,8 +28,7 @@ console.log(add(3, 10));
 test('subtracts two numbers 5 and 3', (expect) => {
     const x = 5;
     const y = 3;
-    //const expected = 2;
-    const expected = 33;
+    const expected = 2;
 
     const actual = subtract(x, y);
     expect.equal(actual, expected);
@@ -43,8 +41,7 @@ console.log(subtract(10, 6));
 test('multiply two numbers 5 and 3', (expect) => {
     const x = 5;
     const y = 3;
-    //const expected = 15;
-    const expected = 11;
+    const expected = 15;
 
     const actual = multiply(x, y);
     expect.equal(actual, expected);
@@ -56,8 +53,7 @@ console.log(multiply(5, 10));
 test('divide two numbers 6 and 3', (expect) => {
     const x = 6;
     const y = 3;
-    //const expected = 2;
-    const expected = 22;
+    const expected = 2;
 
     const actual = divide(x, y);
     expect.equal(actual, expected);
