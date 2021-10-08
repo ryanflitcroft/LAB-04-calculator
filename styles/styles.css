@@ -4,6 +4,7 @@ body {
     background-color: hsla(23, 62%, 95%, 0.25);
     display: grid;
     grid-template-rows: auto 1fr auto;
+    font-family: 'lores-12', sans-serif;
 }
 
 main {
@@ -34,6 +35,9 @@ header img {
 h1 {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #FAF0EA;
+    font-family: 'lores-12', sans-serif;
+    font-weight: 700;
 }
 
 footer {

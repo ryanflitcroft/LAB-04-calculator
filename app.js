@@ -42,6 +42,7 @@ subtractButton.addEventListener('click', () => {
     subtractAnswer.textContent = diff;
 });
 
+//MULTIPLY
 
 const multiplyNumber1 = document.getElementById('multiply-number-1');
 const multiplyNumber2 = document.getElementById('multiply-number-2');
@@ -58,6 +59,7 @@ multiplyButton.addEventListener('click', () => {
     multiplyAnswer.textContent = product;
 });
 
+//DIVIDE
 
 const divideNumber1 = document.getElementById('divide-number-1');
 const divideNumber2 = document.getElementById('divide-number-2');
@@ -73,3 +75,4 @@ divideButton.addEventListener('click', () => {
 
     divideAnswer.textContent = quotient;
 });
+

@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/bgs5xty.css">
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/styles.css">
+
     <title>Calculator App</title>
 </head>
 
@@ -22,36 +23,36 @@
         <section>   
         <h2>Add some numbers:</h2> 
 
-        <input id="add-number-1" value="25">
+        <input type="number" id="add-number-1" placeholder="x">
         +
-        <input id="add-number-2" value="15">
+        <input type="number" id="add-number-2" placeholder="y">
         <button type="submit" id="add-button">=</button>
         <span id="add-answer"></span>
         </section>
 
         <section>
             <h2>Subtract some numbers:</h2>
-            <input id="subtract-number-1" value="25">
+            <input type="number" id="subtract-number-1" placeholder="x">
             -
-            <input id="subtract-number-2" value="15">
+            <input type="number" id="subtract-number-2" placeholder="y">
             <button type="submit" id="subtract-button">=</button>
             <span id="subtract-answer"></span>
         </section>
 
         <section>
             <h2>Multiply some numbers:</h2>
-            <input id="multiply-number-1" value="25">
+            <input type="number" id="multiply-number-1" placeholder="x">
             *
-            <input id="multiply-number-2" value="15">
+            <input type="number" id="multiply-number-2" placeholder="y">
             <button type="submit" id="multiply-button">=</button>
             <span id="multiply-answer"></span>
         </section>
 
         <section>
             <h2>Divide some numbers:</h2>
-            <input id="divide-number-1" value="25">
+            <input type="number" id="divide-number-1" placeholder="x">
             /
-            <input id="divide-number-2" value="15">
+            <input type="number" id="divide-number-2" placeholder="y">
             <button type="submit" id="divide-button">=</button>
             <span id="divide-answer"></span>
         </section>
@@ -63,6 +64,7 @@
     </footer>
 
     <script type="module" src="./app.js"></script>
+    
 </body>
 
 </html>
