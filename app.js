@@ -69,7 +69,7 @@ console.log(divideNumber1, divideNumber2, divideButton, divideAnswer);
 divideButton.addEventListener('click', () => {
     const num1 = +divideNumber1.value;
     const num2 = +divideNumber2.value;
-    const product = divide(num1, num2);
+    const quotient = divide(num1, num2);
 
-    divideAnswer.textContent = product;
+    divideAnswer.textContent = quotient;
 });
